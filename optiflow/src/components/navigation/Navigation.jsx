@@ -15,7 +15,7 @@ export default function Navigation() {
         <div className="container flex w-container">
           <div className="brand">
             <NavLink
-              to="/"
+              to="/optiflow"
               className="brand-logo w-nav-brand"
               aria-label="home"
             >
@@ -25,7 +25,7 @@ export default function Navigation() {
                 alt=""
                 className="image"
               /> */}
-                    <h3>Optiflow</h3>
+              <h3>Optiflow</h3>
             </NavLink>
           </div>
           <nav role="navigation" className="nav-menu w-nav-menu">

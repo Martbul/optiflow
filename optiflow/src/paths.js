@@ -1,5 +1,5 @@
 const Path = {
-  Home: "/",
+  Home: "optiflow",
   AIAgency: "ai-automation-agency",
   MakeConsulting: "make-consulting",
 };
