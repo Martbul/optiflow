@@ -14,27 +14,19 @@ export default function Navigation() {
        >
          <div className="container flex w-container">
            <div className="brand">
-             <a
-               href="/"
-               aria-current="page"
-               className="brand-logo w-nav-brand w--current"
-               aria-label="home"
-             >
+             <a href="/" className="brand-logo w-nav-brand" aria-label="home">
                <img
                  src="https://assets-global.website-files.com/6427c6c769d01c2f58037956/6432499d11af0d4fe2a122f3_axe-logo.png"
                  loading="lazy"
                  alt=""
                  className="image"
-               />
+                     />
+                     
              </a>
            </div>
            <nav role="navigation" className="nav-menu w-nav-menu">
-             <div
-               data-hover="true"
-               data-delay={0}
-               className="w-dropdown"
-               style={{ maxWidth: "90%" }}
-             >
+             <div class="dropdown">
+               {/* <button class="dropbtn">Dropdown</button> */}
                <div
                  className="nav-link w-dropdown-toggle"
                  id="w-dropdown-toggle-0"
@@ -51,8 +43,9 @@ export default function Navigation() {
                    SERVICES
                  </div>
                </div>
+
                <nav
-                 className="nav-dropdown w-dropdown-list"
+                 className="nav-dropdown w-dropdown-list dl dropdown-content"
                  id="w-dropdown-list-0"
                  aria-labelledby="w-dropdown-toggle-0"
                >
@@ -79,23 +72,21 @@ export default function Navigation() {
                  </a>
                  <a
                    href="/make-consulting"
-                   className="nav-dropdown-item no-border w-dropdown-link"
+                   aria-current="page"
+                   className="nav-dropdown-item no-border w-dropdown-link w--current"
                    tabIndex={0}
                  >
                    Make.com Consulting
                  </a>
                </nav>
              </div>
-             <div
-               data-hover="true"
-               data-delay={0}
-               className="w-dropdown"
-               style={{ maxWidth: "90%" }}
-             >
+
+             <div class="dropdown">
+               {/* <button class="dropbtn">Dropdown</button> */}
                <div
                  className="nav-link w-dropdown-toggle"
-                 id="w-dropdown-toggle-1"
-                 aria-controls="w-dropdown-list-1"
+                 id="w-dropdown-toggle-0"
+                 aria-controls="w-dropdown-list-0"
                  aria-haspopup="menu"
                  aria-expanded="false"
                  role="button"
@@ -108,8 +99,9 @@ export default function Navigation() {
                    RESULTS
                  </div>
                </div>
+
                <nav
-                 className="nav-dropdown w-dropdown-list"
+                 className="nav-dropdown w-dropdown-list dropdown-content"
                  id="w-dropdown-list-1"
                  aria-labelledby="w-dropdown-toggle-1"
                >
@@ -129,6 +121,7 @@ export default function Navigation() {
                  </a>
                </nav>
              </div>
+
              <a
                href="https://www.axeautomation.co/#features"
                className="nav-link w-nav-link"
@@ -153,33 +146,53 @@ export default function Navigation() {
                  role="button"
                  tabIndex={0}
                >
-                 <div className="w-icon-dropdown-toggle" aria-hidden="true" />
-                 <div>
-                   <span className="opacity-60">04</span>
-                   <br />
-                   Resources
+                 <div class="dropdown">
+                   {/* <button class="dropbtn">Dropdown</button> */}
+                   <div
+                     className="nav-link w-dropdown-toggle"
+                     id="w-dropdown-toggle-0"
+                     aria-controls="w-dropdown-list-0"
+                     aria-haspopup="menu"
+                     aria-expanded="false"
+                     role="button"
+                     tabIndex={0}
+                   >
+                     <div
+                       className="w-icon-dropdown-toggle"
+                       aria-hidden="true"
+                     />
+                     <div>
+                       <span className="opacity-60">04</span>
+                       <br />
+                       Resources
+                     </div>
+                   </div>
+                   <nav
+                     className="nav-dropdown w-dropdown-list dropdown-content"
+                     id="w-dropdown-list-1"
+                     aria-labelledby="w-dropdown-toggle-1"
+                   >
+                     <a
+                       href="/learn"
+                       className="nav-dropdown-item w-dropdown-link"
+                       tabIndex={0}
+                     >
+                       Blog
+                     </a>
+                     <a
+                       href="/podcast"
+                       className="nav-dropdown-item w-dropdown-link"
+                       tabIndex={0}
+                     >
+                       Podcast
+                     </a>
+                   </nav>
                  </div>
+
+                 
+                
                </div>
-               <nav
-                 className="nav-dropdown w-dropdown-list"
-                 id="w-dropdown-list-2"
-                 aria-labelledby="w-dropdown-toggle-2"
-               >
-                 <a
-                   href="/learn"
-                   className="nav-dropdown-item w-dropdown-link"
-                   tabIndex={0}
-                 >
-                   Blog
-                 </a>
-                 <a
-                   href="/podcast"
-                   className="nav-dropdown-item w-dropdown-link"
-                   tabIndex={0}
-                 >
-                   Podcast
-                 </a>
-               </nav>
+             
              </div>
            </nav>
            <div
