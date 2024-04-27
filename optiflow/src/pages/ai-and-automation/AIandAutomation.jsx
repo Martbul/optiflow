@@ -254,9 +254,9 @@ export default function AIandAutomation() {
              </div>
            </div>
            <div className="text-center">
-             <a href="/free-automation-consultation" className="btn w-button">
+             <NavLink to="/free-automation-consultation" className="btn w-button">
                Free Consultation
-             </a>
+             </NavLink>
            </div>
          </div>
        </section>
@@ -433,9 +433,9 @@ export default function AIandAutomation() {
                </div>
              </div>
              <div className="service-button">
-               <a href="/free-automation-consultation" className="btn w-button">
+               <NavLink to="/free-automation-consultation" className="btn w-button">
                  Free Consultation
-               </a>
+               </NavLink>
              </div>
            </div>
          </div>
@@ -459,12 +459,12 @@ export default function AIandAutomation() {
                    We turn manual, silo’d and inconsistent work into operational
                    excellence with our AI and automation services.
                  </p>
-                 <a
-                   href="/free-automation-consultation"
+                 <NavLink
+                   to="/free-automation-consultation"
                    className="btn bg-gradient w-button"
                  >
                    Free Consultation
-                 </a>
+                 </NavLink>
                </div>
              </div>
            </div>
@@ -527,7 +527,7 @@ export default function AIandAutomation() {
                  </div>
                  <p className="body-copy-sm">
                    Open AI is the company that invented Chat GPT and other
-                   popular AI models. We’re constantly testing it's newest
+                   popular AI models. We’re constantly testing it`s newest
                    innovations.
                  </p>
                </div>
@@ -609,12 +609,12 @@ export default function AIandAutomation() {
                  <p className="body-copy app-description mb-40">
                    Plus thousands more through APIs, custom code and web hooks.
                  </p>
-                 <a
-                   href="/free-automation-consultation"
+                 <NavLink
+                   to="/free-automation-consultation"
                    className="btn connect-button-desktop w-button"
                  >
                    Free Consultation
-                 </a>
+                 </NavLink>
                </div>
              </div>
              <div className="app-col">
@@ -1319,12 +1319,12 @@ export default function AIandAutomation() {
                <div className="single-testimonial-item">
                  <div className="review mb-32">★★★★★</div>
                  <p className="body-copy-sm testimonial-description">
-                   "If you're looking for a way to scale your business without
+                   ``If you`re looking for a way to scale your business without
                    sacrificing your personal life, then this automation agency
                    is the way to go. They helped me automate everything from
                    social media management to customer support, which has
                    allowed me to take my business to the next level without
-                   burning out."
+                   burning out.``
                  </p>
                  <div className="testimonial-author-information">
                    <h6 className="testmonial-author">Amanda L.</h6>

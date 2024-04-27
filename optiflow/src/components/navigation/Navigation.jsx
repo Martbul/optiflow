@@ -57,30 +57,32 @@ export default function Navigation() {
                   className="nav-dropdown-item w-dropdown-link"
                   tabIndex={0}
                 >
-                  AI and Automation
+                  AI and Systems Implementation
                 </NavLink>
                 <NavLink
                   to="/rpa-consulting-services"
                   className="nav-dropdown-item w-dropdown-link"
                   tabIndex={0}
                 >
-                  Robotic Process Automation
+                 AI Chatbot Development
                 </NavLink>
-                <NavLink
-                  to="/zapier-consulting"
-                  className="nav-dropdown-item w-dropdown-link"
-                  tabIndex={0}
-                >
-                  Zapier Consulting
-                </NavLink>
+                
                 <NavLink
                   to="/make-consulting"
                   aria-current="page"
                   className="nav-dropdown-item no-border w-dropdown-link w--current"
                   tabIndex={0}
                 >
-                  Make.com Consulting
+                  Make.com Automations Development
                 </NavLink>
+
+                {/* <NavLink
+                  to="/zapier-consulting"
+                  className="nav-dropdown-item w-dropdown-link"
+                  tabIndex={0}
+                >
+                  AI 
+                </NavLink> */}
               </nav>
             </div>
 
