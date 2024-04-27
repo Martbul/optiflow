@@ -1,0 +1,58 @@
+@media (max-width:1200px){
+    .scroll-h2{
+        font-size: 1.4em;
+        letter-spacing: 0.01em; 
+    }
+    .scroll-h2.middle{
+        padding: 0.3em;
+        font-size: 3em;
+    }
+}
+
+
+@media (max-width:1000px){
+    .upper-tag{
+        display: none;
+    }
+    .scroll-h2{
+        font-size: 0.8em;
+        letter-spacing: 0.01em; 
+    }
+
+    .scroll-h2.middle{
+        padding:  0 0.3em;
+        font-size: 2em;
+    }
+}
+
+
+@media (max-width:700px){
+   
+    .scroll-h2{
+        font-size: 0.6em;
+        letter-spacing: 0.01em; 
+    }
+
+    .scroll-h2.middle{
+        padding:  0 0.2em;
+        font-size: 2em;
+    }
+}
+
+
+
+@media (max-width:400px){
+    .upper-tag{
+        display: none;
+    }
+    .scroll-h2{
+        font-size: 0.8em;
+        letter-spacing: 0.01em; 
+    }
+
+    .scroll-h2.middle{
+       
+        padding:  0 0.1em;
+        font-size: 1em;
+    }
+}

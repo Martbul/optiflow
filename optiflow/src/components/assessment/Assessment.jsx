@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Assessment.css"
 
 export default function Assessment() {
@@ -24,12 +25,12 @@ export default function Assessment() {
                  allows your employees to focus on more engaging tasks, which
                  increases their satisfaction.
                </p>
-               <a
-                 href="/free-automation-consultation"
+               <NavLink
+                 to="/free-automation-consultation"
                  className="button white w-button"
                >
                  Book a Free Call →
-               </a>
+               </NavLink>
              </div>
              <div className="cta-grey">
                <p className="paragraph _60 down-16">
@@ -38,13 +39,13 @@ export default function Assessment() {
                <h2 className="h2-center-white smaller black">
                  Check our Automation Business Assessment below
                </h2>
-               <a
-                 href="https://form.typeform.com/to/CFon11Mc"
+               <NavLink
+                 to="https://1cc2q1rtsz0.typeform.com/to/Q0vE6XjL"
                  target="_blank"
                  className="button white down w-button"
                >
                  Take Automation Quiz →
-               </a>
+               </NavLink>
                <div className="div-block-16">
                  <div className="div-block-17">
                    <div className="button inner">Automation Assessment</div>

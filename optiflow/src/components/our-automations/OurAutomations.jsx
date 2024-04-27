@@ -1,3 +1,5 @@
+import "./OurAutomations.css"
+
 export default function OurAutomations() {
    return (
      <>

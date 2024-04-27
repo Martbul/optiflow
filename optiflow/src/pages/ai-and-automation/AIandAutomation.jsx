@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function AIandAutomation() {
    return (
      <>
@@ -17,12 +19,12 @@ export default function AIandAutomation() {
                customer experience. Fully custom and done-for-you.
              </p>
              <div className="hero-button hero-ai-button">
-               <a
-                 href="/free-automation-consultation"
+               <NavLink
+                 to="/free-automation-consultation"
                  className="btn bg-gradient mb-16 w-button"
                >
                  Free Consultation
-               </a>
+               </NavLink>
                <div className="text-small">
                  We’ll unearth new use cases for your company.
                </div>
