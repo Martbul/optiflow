@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import {   NavLink } from "react-router-dom";
 import "./Navigations.css";
 export default function Navigation() {
   return (
@@ -19,12 +19,12 @@ export default function Navigation() {
               className="brand-logo w-nav-brand"
               aria-label="home"
             >
-              {/* <img
-                src="https://assets-global.website-files.com/6427c6c769d01c2f58037956/6432499d11af0d4fe2a122f3_axe-logo.png"
+              <img
+                src="../../images/Optiflow__5_-removebg-preview.png"
                 loading="lazy"
                 alt=""
                 className="image"
-              /> */}
+              />
               <h3>Optiflow</h3>
             </NavLink>
           </div>

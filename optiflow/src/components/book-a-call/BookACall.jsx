@@ -1,3 +1,5 @@
+import {   NavLink } from "react-router-dom";
+
 export default function BookACall() {
    
    return (
@@ -16,16 +18,16 @@ export default function BookACall() {
            >
              <h2 className="h2-center-white center">Lets scale together</h2>
              <p className="paragraph _60 top center">
-               We've helped many businesses save 50,000+ hours and $100K+ with
+               We`ve helped many businesses save 50,000+ hours and $100K+ with
                automation. <br />
                Let us do the same for your company.
              </p>
-             <a
-               href="/free-automation-consultation"
+             <NavLink
+               to="/free-automation-consultation"
                className="button white w-button"
              >
                Book a Free Call →
-             </a>
+             </NavLink>
            </div>
          </div>
          <img

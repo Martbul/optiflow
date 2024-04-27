@@ -1,3 +1,6 @@
+import { NavLink } from "react-router-dom";
+
+
 export default function Footer() {
    return (
      <>
@@ -5,49 +8,39 @@ export default function Footer() {
          <div className="container">
            <div className="f-footer-bottom">
              <div className="f-footer-brand">
-               <a
-                 href="/"
-                 aria-current="page"
-                 className="logo-link w-nav-brand w--current"
-               >
-                 <img
-                   src="https://assets-global.website-files.com/6427c6c769d01c2f58037956/6432499d11af0d4fe2a122f3_axe-logo.png"
-                   loading="lazy"
-                   alt=""
-                   className="image-footer"
-                 />
-               </a>
+               
+               <h3 >Optiflow</h3>
              </div>
              <div className="f-footer-group">
                <div
                  id="w-node-_8b60789d-c53f-71f2-bed6-2e2e7d3a27df-7d3a27d8"
                  className="f-footer-menu"
                >
-                 <a
-                   href="https://www.axeautomation.co/#features"
+                 <NavLink
+                   to="https://www.axeautomation.co/#features"
                    className="navlinks w-inline-block"
                  >
                    <div>About Us</div>
-                 </a>
+                 </NavLink>
                  <div className="f-footer-vertical-divider" />
-                 <a
-                   href="https://www.axeautomation.co/#testimonials"
+                 <NavLink
+                   to="https://www.axeautomation.co/#testimonials"
                    className="navlinks w-inline-block"
                  >
                    <div>Testimonials</div>
-                 </a>
+                 </NavLink>
                  <div className="f-footer-vertical-divider" />
-                 <a
-                   href="/free-automation-consultation"
+                 <NavLink
+                   to="/free-automation-consultation"
                    className="navlinks w-inline-block"
                  >
                    <div>Book a Call</div>
-                 </a>
+                 </NavLink>
                </div>
                <div className="f-footer-social-row-large">
                  <div className="f-footer-social-group">
-                   <a
-                     href="https://www.youtube.com/@itsedaxe"
+                   <NavLink
+                     to="https://www.youtube.com/@itsedaxe"
                      target="_blank"
                      className="f-footer-social w-inline-block"
                    >
@@ -68,7 +61,7 @@ export default function Footer() {
                          <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                        </svg>
                      </div>
-                   </a>
+                   </NavLink>
                    <a
                      href="https://twitter.com/itsedaxe"
                      target="_blank"
@@ -119,7 +112,7 @@ export default function Footer() {
            <div className="f-footer-bottom top">
              <div className="f-footer-brand">
                <div className="copyright-text">
-                 Copyright Axe Automation ©2023
+                 Copyright Optiflow ©2024
                </div>
              </div>
            </div>

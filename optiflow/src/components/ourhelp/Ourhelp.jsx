@@ -1,3 +1,6 @@
+import {   NavLink } from "react-router-dom";
+
+
 export default function OurHelp() {
    return (
      <>
@@ -149,12 +152,12 @@ export default function OurHelp() {
                    </p>
                  </div>
                </div>
-               <a
-                 href="/free-automation-consultation"
+               <NavLink
+                 to="/free-automation-consultation"
                  className="button w-button"
                >
                  Book a Free Call →
-               </a>
+               </NavLink>
              </div>
              <div
                id="w-node-_9d08297d-5a87-5460-5e92-3e3d606bf823-1f9b70d3"
